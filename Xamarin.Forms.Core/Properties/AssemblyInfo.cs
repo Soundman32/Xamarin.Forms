@@ -78,7 +78,7 @@ using Xamarin.Forms.StyleSheets;
 [assembly: StyleProperty("text-decoration", typeof(IDecorableTextElement), nameof(DecorableTextElement.TextDecorationsProperty))]
 [assembly: StyleProperty("transform", typeof(VisualElement), nameof(VisualElement.TransformProperty))]
 [assembly: StyleProperty("transform-origin", typeof(VisualElement), nameof(VisualElement.TransformOriginProperty))]
-[assembly: StyleProperty("vertical-align", typeof(Label), nameof(Label.VerticalTextAlignment))]
+[assembly: StyleProperty("vertical-align", typeof(Label), nameof(Label.VerticalTextAlignmentProperty))]
 [assembly: StyleProperty("visibility", typeof(VisualElement), nameof(VisualElement.IsVisibleProperty), Inherited = true)]
 [assembly: StyleProperty("width", typeof(VisualElement), nameof(VisualElement.WidthRequestProperty))]
 [assembly: StyleProperty("line-height", typeof(ILineHeightElement), nameof(LineHeightElement.LineHeightProperty), Inherited = true)]
